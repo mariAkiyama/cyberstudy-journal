@@ -1,0 +1,26 @@
+theme = "book"
+
+baseURL = "http://localhost:1313/"
+title = "Cyberstudy Journal"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+enableGitInfo = false
+enableRobotsTXT = true
+
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    contentDir = "content/en"
+    weight = 1
+
+  [languages.ja]
+    languageName = "日本語"
+    contentDir = "content/ja"
+    weight = 2
+
+[params]
+BookSection = "*"
+BookTheme = "auto"
+BookToC = true
+BookSearch = true
