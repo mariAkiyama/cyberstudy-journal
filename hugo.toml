@@ -1,6 +1,6 @@
 theme = "book"
 
-baseURL = "http://localhost:1313/"
+baseURL = "https://mariAkiyama.github.io/cyberstudy-journal/"
 title = "Cyberstudy Journal"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
