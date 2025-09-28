@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cyberstudy Journal</title><link>https://mariAkiyama.github.io/cyberstudy-journal/en/glossary/</link><description>Recent content on Cyberstudy Journal</description><generator>Hugo</generator><language>en</language><atom:link href="https://mariAkiyama.github.io/cyberstudy-journal/en/glossary/index.xml" rel="self" type="application/rss+xml"/><item><title>Phishing</title><link>https://mariAkiyama.github.io/cyberstudy-journal/en/glossary/test/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://mariAkiyama.github.io/cyberstudy-journal/en/glossary/test/</guid><description>&lt;p>&lt;code># content/en/glossary/test.md&lt;/code>&lt;/p>
+&lt;h2 id="what-is-phishing">
+ What is Phishing?
+ &lt;a class="anchor" href="#what-is-phishing">#&lt;/a>
+&lt;/h2>
+&lt;p>Phishing is a type of cyber attack where attackers trick users into revealing sensitive information.&lt;/p>
+&lt;h3 id="how-to-recognize-a-phishing-email">
+ How to recognize a phishing email:
+ &lt;a class="anchor" href="#how-to-recognize-a-phishing-email">#&lt;/a>
+&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Urgent or threatening language:&lt;/strong> The email often demands immediate action.&lt;/li>
+&lt;li>&lt;strong>Suspicious links:&lt;/strong> Hover over links to check if they lead to an unexpected address.&lt;/li>
+&lt;li>&lt;strong>Look-a-like domain:&lt;/strong> Fake email domain might be used.&lt;/li>
+&lt;li>&lt;strong>Grammatical errors:&lt;/strong> Poor spelling and grammar can be a red flag.&lt;/li>
+&lt;/ul>
+&lt;h3 id="technical-red-flags">
+ Technical red flags:
+ &lt;a class="anchor" href="#technical-red-flags">#&lt;/a>
+&lt;/h3>
+&lt;blockquote>
+&lt;p>Do not share sensitive information to the public tools.&lt;/p></description></item></channel></rss>
