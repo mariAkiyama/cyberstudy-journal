@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Incident Response on Cyberstudy Journal</title><link>https://mariAkiyama.github.io/cyberstudy-journal/en/incident-response/</link><description>Recent content in Incident Response on Cyberstudy Journal</description><generator>Hugo</generator><language>en</language><atom:link href="https://mariAkiyama.github.io/cyberstudy-journal/en/incident-response/index.xml" rel="self" type="application/rss+xml"/><item><title>Email Account Compromise and Malicious Outbound Mail</title><link>https://mariAkiyama.github.io/cyberstudy-journal/en/incident-response/emailaccountcompromiseoutboundemail/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://mariAkiyama.github.io/cyberstudy-journal/en/incident-response/emailaccountcompromiseoutboundemail/</guid><description>&lt;h2 id="incident-response-in-action-email-account-compromise-and-malicious-outbound-mail"&gt;
+ Incident Response in Action: Email Account Compromise and Malicious Outbound Mail
+ &lt;a class="anchor" href="#incident-response-in-action-email-account-compromise-and-malicious-outbound-mail"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;h3 id="scenario"&gt;
+ Scenario
+ &lt;a class="anchor" href="#scenario"&gt;#&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;An employee’s email account was compromised, and suspicious emails were sent to both internal and external recipients.
+The incident was discovered after a business partner reported receiving a suspicious message.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="1-immediate-user-actions-csirt-instructions"&gt;
+ 1. Immediate User Actions (CSIRT Instructions)
+ &lt;a class="anchor" href="#1-immediate-user-actions-csirt-instructions"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Reset the compromised account password&lt;/strong&gt; immediately. Ensure it is strong and unique.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Review mailbox rules and forwarding&lt;/strong&gt;: remove any unauthorized rules or auto-forwarding.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="2-technical-containment"&gt;
+ 2. Technical Containment
+ &lt;a class="anchor" href="#2-technical-containment"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Technical Team:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Phishing email analysis</title><link>https://mariAkiyama.github.io/cyberstudy-journal/en/incident-response/phishingemailanalysis/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://mariAkiyama.github.io/cyberstudy-journal/en/incident-response/phishingemailanalysis/</guid><description>&lt;h2 id="phishing-email-analysis"&gt;
+ Phishing email analysis
+ &lt;a class="anchor" href="#phishing-email-analysis"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;h3 id="how-to-recognize-a-phishing-email"&gt;
+ How to recognize a phishing email:
+ &lt;a class="anchor" href="#how-to-recognize-a-phishing-email"&gt;#&lt;/a&gt;
+&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Urgent or threatening language:&lt;/strong&gt; The email often demands immediate action.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Suspicious links:&lt;/strong&gt; Hover over links to check if they lead to an unexpected address.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Look-a-like domain:&lt;/strong&gt; Fake email domain might be used.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Grammatical errors:&lt;/strong&gt; Poor spelling and grammar can be a red flag.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="technical-red-flags"&gt;
+ Technical red flags:
+ &lt;a class="anchor" href="#technical-red-flags"&gt;#&lt;/a&gt;
+&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Do not share sensitive information to the public tools.&lt;/p&gt;</description></item></channel></rss>
