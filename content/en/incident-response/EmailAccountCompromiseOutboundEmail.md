@@ -6,16 +6,10 @@ weight: 10
 ---
 ## Incident Response in Action: Email Account Compromise and Malicious Outbound Mail
 
-###Scenario
+### Scenario
 An employee’s email account was compromised, and suspicious emails were sent to both internal and external recipients. 
 The incident was discovered after a business partner reported receiving a suspicious message.
 
----
-# CSIRT Incident Handling Checklist: Account Compromise with Suspicious Emails
-
-**Scenario:** An employee’s email account was compromised and used to send suspicious emails. A business partner reported receiving one of these emails.
-
-This checklist is designed for **CSIRT staff** to issue clear instructions to the affected user and coordinate internal teams.
 
 ---
 
