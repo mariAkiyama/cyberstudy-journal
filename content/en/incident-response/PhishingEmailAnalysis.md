@@ -4,6 +4,7 @@ draft: false
 bookCollapseSection: true
 weight: 10
 ---
+## Phishing email analysis
 
 ### How to recognize a phishing email:
 * **Urgent or threatening language:** The email often demands immediate action.
