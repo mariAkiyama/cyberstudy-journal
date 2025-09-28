@@ -4,7 +4,7 @@ baseURL = "https://mariAkiyama.github.io/cyberstudy-journal/"
 title = "Cyberstudy Journal"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
-enableGitInfo = false
+enableGitInfo = true
 enableRobotsTXT = true
 
 

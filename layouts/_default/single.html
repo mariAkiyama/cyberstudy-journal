@@ -1,0 +1,23 @@
+{{ define "main" }}
+<article>
+    <!-- 記事のタイトル -->
+    <h1>{{ .Title }}</h1>
+
+    <!-- 日付表示ブロックの開始 -->
+    <div class="date-info">
+        {{ if not .Date.IsZero }}
+            <p><strong>Created:</strong> {{ .Date.Format "Jan 2, 2006" }}</p>
+        {{ end }}
+
+        {{ if (and (.Lastmod) (ne .Lastmod .Date)) }}
+            <p><strong>Last modified:</strong> {{ .Lastmod.Format "Jan 2, 2006" }}</p>
+        {{ end }}
+    </div>
+    <!-- 日付表示ブロックの終了 -->
+
+    <!-- 記事の本文 -->
+    <div class="content">
+        {{ .Content }}
+    </div>
+</article>
+{{ end }}
