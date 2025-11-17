@@ -7,7 +7,7 @@ weight: 10
 ## Incident Response in Action: Email Account Compromise and Malicious Outbound Mail
 
 ### Scenario
-An employee’s email account was compromised, and suspicious emails were sent to both internal and external recipients. 
+An employee's email account was compromised, and suspicious emails were sent to both internal and external recipients. 
 The incident was discovered after a business partner reported receiving a suspicious message.
 
 
