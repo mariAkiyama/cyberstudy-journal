@@ -4,7 +4,6 @@ draft: false
 bookCollapseSection: true
 weight: 10
 ---
-
 ## 1. NikkeiNetWork_BYOX
 攻撃者が独自の環境やツールを持ち込む**BringYour Own X**という手口。
 Bring Your Own Installer(BYOI)、Bring Your Own Virtual Machine(BYOVM)について。
