@@ -1,16 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Welcome to Cyberstudy Journal on Cyberstudy Journal</title><link>https://mariAkiyama.github.io/cyberstudy-journal/ja/</link><description>Recent content in Welcome to Cyberstudy Journal on Cyberstudy Journal</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Sun, 21 Dec 2025 01:44:02 +0900</lastBuildDate><atom:link href="https://mariAkiyama.github.io/cyberstudy-journal/ja/index.xml" rel="self" type="application/rss+xml"/><item><title>NikkeiNetwork 202511</title><link>https://mariAkiyama.github.io/cyberstudy-journal/ja/reading-log/nikkeinetwork-202511/</link><pubDate>Sun, 30 Nov 2025 00:00:00 +0000</pubDate><guid>https://mariAkiyama.github.io/cyberstudy-journal/ja/reading-log/nikkeinetwork-202511/</guid><description>&lt;h2 id="1-nikkeinetwork_byox"&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Welcome to Cyberstudy Journal on Cyberstudy Journal</title><link>https://mariAkiyama.github.io/cyberstudy-journal/ja/</link><description>Recent content in Welcome to Cyberstudy Journal on Cyberstudy Journal</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Sun, 21 Dec 2025 01:47:20 +0900</lastBuildDate><atom:link href="https://mariAkiyama.github.io/cyberstudy-journal/ja/index.xml" rel="self" type="application/rss+xml"/><item><title>NikkeiNetwork 202511</title><link>https://mariAkiyama.github.io/cyberstudy-journal/ja/reading-log/nikkeinetwork-202511/</link><pubDate>Sun, 30 Nov 2025 00:00:00 +0000</pubDate><guid>https://mariAkiyama.github.io/cyberstudy-journal/ja/reading-log/nikkeinetwork-202511/</guid><description>&lt;h2 id="1-nikkeinetwork_byox"&gt;
  1. NikkeiNetWork_BYOX
  &lt;a class="anchor" href="#1-nikkeinetwork_byox"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;攻撃者が独自の環境やツールを持ち込む&lt;strong&gt;BringYour Own X&lt;/strong&gt;という手口。
 Bring Your Own Installer(BYOI)、Bring Your Own Virtual Machine(BYOVM)について。&lt;/p&gt;
-&lt;p&gt;###&lt;em&gt;BYOI&lt;/em&gt;は正規品の更新タイムラグを狙う。
-既存版を止めて別版に入れ替える途中でセキュリティー製品の保護機能が低下、または存在しない時間が生じる
+&lt;h3 id="byoi-は正規品の更新タイムラグを狙う"&gt;
+ &lt;em&gt;BYOI&lt;/em&gt; は正規品の更新タイムラグを狙う。
+ &lt;a class="anchor" href="#byoi-%e3%81%af%e6%ad%a3%e8%a6%8f%e5%93%81%e3%81%ae%e6%9b%b4%e6%96%b0%e3%82%bf%e3%82%a4%e3%83%a0%e3%83%a9%e3%82%b0%e3%82%92%e7%8b%99%e3%81%86"&gt;#&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;既存版を止めて別版に入れ替える途中でセキュリティー製品の保護機能が低下、または存在しない時間が生じる
 Babukランサムウエアを展開する攻撃では、米SentinelOneのEDR（Endpoint Detection and Response）p1 製品を無効化する手口が確認された。
 米Palo Alto Networksの セキュリティー 製品「CortexXDR」においては、インストーラーの修復機能を用いて無効化するPoC（Proof of Concept）が報告されている。
 修復処理中に約 60 秒間製品が停止状態。改ざん防止機能を無効化するといった運用上の設定との組み合わせて、攻撃が成立した。&lt;/p&gt;
-&lt;p&gt;###&lt;em&gt;BYOVM&lt;/em&gt;は独自のVMを持ち込み、ゲストOSから正規の共有機能などを介してホストOSの環境を攻撃する。
-ホストOS上のセキュリティー製品にとっ て、VMのゲストOSは独立した別のOS。ゲストからホストの論理ドライブを共有フォルダーとしてマウントし、ファイルを暗号化する手口が確認された。
+&lt;h3 id="byovm-は独自のvmを持ち込みゲストosから正規の共有機能などを介してホストosの環境を攻撃する"&gt;
+ &lt;em&gt;BYOVM&lt;/em&gt; は独自のVMを持ち込み、ゲストOSから正規の共有機能などを介してホストOSの環境を攻撃する。
+ &lt;a class="anchor" href="#byovm-%e3%81%af%e7%8b%ac%e8%87%aa%e3%81%aevm%e3%82%92%e6%8c%81%e3%81%a1%e8%be%bc%e3%81%bf%e3%82%b2%e3%82%b9%e3%83%88os%e3%81%8b%e3%82%89%e6%ad%a3%e8%a6%8f%e3%81%ae%e5%85%b1%e6%9c%89%e6%a9%9f%e8%83%bd%e3%81%aa%e3%81%a9%e3%82%92%e4%bb%8b%e3%81%97%e3%81%a6%e3%83%9b%e3%82%b9%e3%83%88os%e3%81%ae%e7%92%b0%e5%a2%83%e3%82%92%e6%94%bb%e6%92%83%e3%81%99%e3%82%8b"&gt;#&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;ホストOS上のセキュリティー製品にとっ て、VMのゲストOSは独立した別のOS。ゲストからホストの論理ドライブを共有フォルダーとしてマウントし、ファイルを暗号化する手口が確認された。
 AkiraランサムウェアはWindows Defenderを無効化し、Hyper-Vのデータストレージドライブを共有マウントして暗号化しした。&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;【考察】&lt;/strong&gt;
@@ -46,13 +52,4 @@ AkiraランサムウェアはWindows Defenderを無効化し、Hyper-Vのデー�
  &lt;a class="anchor" href="#%e3%82%a4%e3%83%b3%e3%82%b7%e3%83%87%e3%83%b3%e3%83%88%e7%8a%b6%e6%b3%81"&gt;#&lt;/a&gt;
 &lt;/h3&gt;
 &lt;p&gt;業務システムはオンプレ。
-VPNの脆弱性からの攻撃のため、クリーンインストールをしても、侵入経路などに再感染の可能性が残った。&lt;/p&gt;
-&lt;h3 id="実施された対応と判断"&gt;
- 実施された対応と判断:
- &lt;a class="anchor" href="#%e5%ae%9f%e6%96%bd%e3%81%95%e3%82%8c%e3%81%9f%e5%af%be%e5%bf%9c%e3%81%a8%e5%88%a4%e6%96%ad"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
-&lt;p&gt;アナログで業務を継続
-再感染リスクを排除するため、ハードウェアの全廃棄・入れ替えを決定。
-PC・ネットワーク機器の入れ替え判断は1日、業務システムの判断は4日で実施。
-システムは1か月かけて復旧。業務システムはクラウド上に再構築。
-1か月半後に社外に復旧を公表した。&lt;/p&gt;</description></item></channel></rss>
+VPNの脆弱性からの攻撃のため、クリーンインストールをしても、侵入経路などに再感染の可能性が残った。&lt;/p&gt;</description></item></channel></rss>
