@@ -9,14 +9,14 @@ weight: 10
 攻撃者が独自の環境やツールを持ち込む**BringYour Own X**という手口。
 Bring Your Own Installer(BYOI)、Bring Your Own Virtual Machine(BYOVM)について。
 
-###*BYOI*は正規品の更新タイムラグを狙う。
+### *BYOI* は正規品の更新タイムラグを狙う。
 既存版を止めて別版に入れ替える途中でセキュリティー製品の保護機能が低下、または存在しない時間が生じる
 Babukランサムウエアを展開する攻撃では、米SentinelOneのEDR（Endpoint Detection and Response）p1 製品を無効化する手口が確認された。
 米Palo Alto Networksの セキュリティー 製品「CortexXDR」においては、インストーラーの修復機能を用いて無効化するPoC（Proof of Concept）が報告されている。
 修復処理中に約 60 秒間製品が停止状態。改ざん防止機能を無効化するといった運用上の設定との組み合わせて、攻撃が成立した。
 
 
-###*BYOVM*は独自のVMを持ち込み、ゲストOSから正規の共有機能などを介してホストOSの環境を攻撃する。
+### *BYOVM* は独自のVMを持ち込み、ゲストOSから正規の共有機能などを介してホストOSの環境を攻撃する。
 ホストOS上のセキュリティー製品にとっ て、VMのゲストOSは独立した別のOS。ゲストからホストの論理ドライブを共有フォルダーとしてマウントし、ファイルを暗号化する手口が確認された。
 AkiraランサムウェアはWindows Defenderを無効化し、Hyper-Vのデータストレージドライブを共有マウントして暗号化しした。
 
