@@ -1,5 +1,6 @@
 ---
 title: "NikkeiNetwork 202511"
+date: 2025-11-30
 draft: false
 bookCollapseSection: true
 weight: 10
